@@ -1,1 +1,12 @@
+# Export the core functions
+export(pzfx_to_csv)
+export(pzfx_to_xlsx)
+export(clean_na_rows)
+
+# Export everything with names starting with an alphabetic character
 exportPattern("^[[:alpha:]]+")
+
+# Import functions from external packages
+importFrom("utils", "write.csv")
+importFrom("openxlsx", "createWorkbook", "addWorksheet", "writeData", "saveWorkbook")
+importFrom("pzfx", "pzfx_tables", "read_pzfx")

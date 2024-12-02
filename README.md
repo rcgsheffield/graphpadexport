@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 100
----
-
 # Graphpad Export
 
 The `graphpadexport` package provides functions to facilitate the transition from GraphPad Prism

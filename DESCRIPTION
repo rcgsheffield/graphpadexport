@@ -1,11 +1,17 @@
 Package: graphpadexport
 Type: Package
-Title: What the Package Does (Title Case)
+Title: GraphPad Export Package for Converting Prism Files to CSV and XLSX Formats
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Grace Accad
+Maintainer: Grace Accad <g.accad@sheffield.ac.uk>
+Description: This package provides functions to extract tables from GraphPad Prism (.pzfx) files
+    and convert them into widely used formats such as CSV and XLSX. It is designed to be easy
+    to use for researchers who need to export data from GraphPad Prism into more flexible formats
+    for further analysis and sharing.
 Encoding: UTF-8
+License: MIT + file LICENSE
 LazyData: true
+Imports: 
+    openxlsx,
+    pzfx
+RoxygenNote: 7.3.2

@@ -6,14 +6,6 @@ tables from GraphPad Prism .pzfx files and converts them into CSV or Excel forma
 designed for users with no programming background and provides detailed instructions for every step
 of the process.
 
-## Installation
-
-To install the package, use the following command in R:
-
-``` r
-devtools::install_github("rcgsheffield/graphpadexport")
-```
-
 ## Dependencies
 
 The package requires the following dependencies:

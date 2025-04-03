@@ -11,7 +11,7 @@ of the process.
 To install the package, use the following command in R:
 
 ``` r
-devtools::install_github("yourusername/graphpadexport")
+devtools::install_github("rcgsheffield/graphpadexport")
 ```
 
 ## Dependencies
@@ -86,7 +86,7 @@ Converts tables from a `.pzfx` file into an Excel workbook. Each table is added 
 After installing R and RStudio, install the `graphpadexport` package with the following command:
 
 ``` r
-devtools::install_github("G-Accad/graphpadexport")
+devtools::install_github("rcgsheffield/graphpadexport")
 ```
 
 ### Use the Functions:

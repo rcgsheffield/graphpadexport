@@ -118,8 +118,9 @@ pzfx_to_csv("path/to/your/file.pzfx", "path/to/output/directory")
 
 This will save the tables as separate CSV files in the specified directory. 
 
-#### Convert .pzfx to
-XLSX: Use the `pzfx_to_xlsx()` function to convert the tables in your `.pzfx` file to an Excel file:
+#### Convert .pzfx to XLSX: 
+
+Use the `pzfx_to_xlsx()` function to convert the tables in your `.pzfx` file to an Excel file:
 
 ``` r
 pzfx_to_xlsx("path/to/your/file.pzfx", "path/to/output/directory")

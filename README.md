@@ -89,6 +89,17 @@ install the `graphpadexport` package with the following command:
 devtools::install_github("rcgsheffield/graphpadexport")
 ```
 
+---
+
+> ⚠️ **Important Note on File Paths**  
+> If you are copying in file paths please make sure to replace all backslashes (`\`) with forward slashes (`/`).  
+> R expects file paths like this:  
+> ✅ `"C:/Users/YourName/Documents/example.pzfx"`  
+> ❌ `"C:\Users\YourName\Documents\example.pzfx"`
+
+---
+
+
 ### Use the Functions:
 
 #### Open RStudio and load the graphpadexport package:

@@ -81,9 +81,17 @@ Converts tables from a `.pzfx` file into an Excel workbook. Each table is added 
 2.  Visit the [RStudio website](https://posit.co/download/rstudio-desktop/) to download and install
     RStudio. 
     
-### Install the Graphpad Export Package:
+### Install Packages:
 
-After installing R and RStudio, install the `graphpadexport` package with the following command:
+After installing R and RStudio:
+
+Install devtools:
+
+```r
+install.packages("devtools")
+```
+
+install the `graphpadexport` package with the following command:
 
 ``` r
 devtools::install_github("rcgsheffield/graphpadexport")

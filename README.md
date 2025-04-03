@@ -105,7 +105,9 @@ Use the `pzfx_to_csv()` function to convert the tables in your `.pzfx` file to C
 pzfx_to_csv("path/to/your/file.pzfx", "path/to/output/directory")
 ```
 
-This will save the tables as separate CSV files in the specified directory. \#### Convert .pzfx to
+This will save the tables as separate CSV files in the specified directory. 
+
+#### Convert .pzfx to
 XLSX: Use the `pzfx_to_xlsx()` function to convert the tables in your `.pzfx` file to an Excel file:
 
 ``` r
@@ -130,6 +132,25 @@ pzfx_to_xlsx("path/to/your/file.pzfx", "path/to/output/directory")
 
 After running these functions, you'll have clean CSV and/or Excel files ready for further analysis
 or sharing.
+
+## How it works
+
+
+```mermaid
+flowchart TD
+    A[Start: .pzfx File] --> B[List Tables in File]
+    B --> C{For Each Table}
+    C --> D[Read Table Data]
+    D --> E[Clean NA Rows]
+    E --> F[Store Cleaned Table]
+    F --> C
+    C -->|All Tables Processed| G{Export Format}
+    G --> H[Write CSV Files] 
+    G --> I[Write Excel Workbook]
+    H --> J[Done]
+    I --> J
+```
+
 
 ## License
 

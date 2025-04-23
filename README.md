@@ -77,17 +77,18 @@ Converts tables from a `.pzfx` file into an Excel workbook. Each table is added 
 
 After installing R and RStudio:
 
-Install devtools:
+Install remotes:
 
 ```r
-install.packages("devtools")
+install.packages("remotes")
 ```
 
 install the `graphpadexport` package with the following command:
 
 ``` r
-devtools::install_github("rcgsheffield/graphpadexport")
+remotes::install_github("rcgsheffield/graphpadexport")
 ```
+
 
 ---
 

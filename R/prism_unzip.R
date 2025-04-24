@@ -1,12 +1,12 @@
-#’ Unzips a .prism file
-#’
-#’ Given a path to a “.prism” file, this function will create a sibling “_unzipped” folder (named after the file) and unzip everything into it.
-#’
-#’ @param prism_path Path to the `.prism` file to extract.
-#’ @param output_dir Optional parent directory in which to create the `_unzipped`
-#’   folder. Defaults to the directory containing `prism_path`.
-#’ @return Invisibly returns the full path to the folder where the files were unzipped.
-#’ @export
+#' Unzips a .prism file
+#'
+#' Given a path to a “.prism” file, this function will create a sibling “_unzipped” folder (named after the file) and unzip everything into it.
+#'
+#' @param prism_path Path to the `.prism` file to extract.
+#' @param output_dir Optional parent directory in which to create the `_unzipped`
+#'   folder. Defaults to the directory containing `prism_path`.
+#' @return Invisibly returns the full path to the folder where the files were unzipped.
+#' @export
 
 
 prism_unzip <- function(prism_path,

@@ -20,8 +20,9 @@
 #' # Example usage:
 #' \dontrun{
 #' pzfx_to_csv("path/to/your/file.pzfx", "path/to/save/csvs")}
-#'
+#' @importFrom utils write.csv
 #' @export
+
 pzfx_to_csv <- function(file_path, output_dir = getwd()) {
 
   # Check if file path is provided

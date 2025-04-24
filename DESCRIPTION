@@ -1,7 +1,7 @@
 Package: graphpadexport
 Type: Package
 Title: GraphPad Export Package for Converting Prism Files to CSV and XLSX Formats
-Version: 0.1.0
+Version: 0.1.1
 Author: Grace Accad
 Maintainer: Grace Accad <g.accad@sheffield.ac.uk>
 Description: This package provides functions to extract tables from GraphPad Prism (.pzfx) files

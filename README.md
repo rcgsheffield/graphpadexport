@@ -64,6 +64,24 @@ Converts tables from a `.pzfx` file into an Excel workbook. Each table is added 
 **Returns:** 
 - Saves an Excel file in the specified directory with each table as a separate sheet.
 
+----------------------------------------------------------------------------------------------------
+
+### `prism_unzip`
+
+```r
+prism_unzip(prism_path, output_dir = dirname(prism_path))
+```
+
+Unzips a `.prism` file (ZIP of CSV/JSON) into a folder.  
+All internal files—data tables, layouts, analyses will be extracted.
+
+- **Arguments:**  
+  - `prism_path`: Path to the `.prism` file.  
+  - `output_dir`: Parent directory in which to create the `_unzipped` folder (default = same folder as `prism_path`).  
+- **Returns:**  
+  Invisible path to the folder containing the extracted contents.
+
+
 ## Step-by-Step Instructions
 
 ### Install R and RStudio:
